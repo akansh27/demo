@@ -22,6 +22,7 @@ func TestTerraformDockerNgnix(t *testing.T) {
 	// Run "terraform init" and "terraform apply". Fail the test if there are any errors.
 	terraform.InitAndApply(t, terraformOptions)
 
+	//Assert condition to verify the container name
 	output := terraform.Output(t, terraformOptions, "container_name")
 	assert.Equal(t, "nginx-server-dev", output)
 
