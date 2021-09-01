@@ -33,7 +33,7 @@ Under each environment we have main.tf,variable.tf & output.tf files
 
 - Open browser & verify “nginx” status by using "http://localhost:8081"
 
-## Links
+## Test cases
 Test cases to verify the whether the container is created with the name given . (Similary we can have different test cases)
 
 ## Links
